@@ -147,7 +147,7 @@ def setup_sqlalchemy_logging():
     for log_name in sqlalchemy_loggers:
         log = logging.getLogger(log_name)
         log.setLevel(logging.INFO)
-        sqlalchemy_logger = RequestIDLoggerAdapter(log)
+        sqlalchemy_logger = RequestIDLoggerAdapter(log, extra={})
 
         # Apply adapter to all handlers
         for handler in log.handlers:
