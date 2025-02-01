@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nero-fastapi-logger-lib
+Version: 0.1.1
+Summary: A logging library for FastAPI with request_id tracking
+Home-page: https://github.com/neroswords/nero-fastapi-logger-lib.git
+Author: Tanathap Roongpipat
+Author-email: tanathep.min@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
