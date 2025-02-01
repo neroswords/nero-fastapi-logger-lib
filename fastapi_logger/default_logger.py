@@ -61,6 +61,7 @@ def cronjob_system(func):
             if not api_request_id_var.get():
                 logger.info(f"Finished cron job: {func.__name__}, clearing request_id")
                 clear_cronjob_request_id()
+    return wrapper
 
 
 # Custom Logging Filter to Inject request_id
